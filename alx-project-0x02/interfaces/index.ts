@@ -1,4 +1,4 @@
-export type CardProps = {
+export interface CardProps {
   title: string;
   content: string;
 }
