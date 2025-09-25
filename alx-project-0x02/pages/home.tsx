@@ -11,6 +11,8 @@ const Home: React.FC = () => {
         setPosts((prev) => [...prev, data ])
     }
     return(
+        <div>
+            <Header />
         <div className="p-8 text-center">
             <h1 className="text-3xl font-bold mb-6">Welcome to Home Page</h1>
             <button
@@ -34,6 +36,7 @@ const Home: React.FC = () => {
             onClose={() => setOpen(false)}
             onSubmit={addPost}/>
             <Card title="Welcome" content="This is a welcome Card" />
+        </div>
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import Header from "@/components/layout/Header"
 
-const Post: React.FC = () => {
+const Posts: React.FC = () => {
     return (
         <div>
             <h1>
@@ -11,4 +11,4 @@ const Post: React.FC = () => {
     )
 }
 
-export default Post
+export default Posts
