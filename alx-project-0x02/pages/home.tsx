@@ -1,5 +1,6 @@
 import Card from "@/components/common/Card"
 import PostModal, {PostData}  from "@/components/common/PostModal"
+import Header from "@/components/layout/Header"
 import { useState } from "react"
 
 const Home: React.FC = () => {

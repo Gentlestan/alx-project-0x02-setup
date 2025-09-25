@@ -6,6 +6,7 @@ const Header: React.FC = () => {
             <nav className="space-x-4">
                 <Link href="/home">Home</Link>
                 <Link href="/about">About</Link>
+                <Link href="/post">Post</Link>
             </nav>
         </header>
     )
