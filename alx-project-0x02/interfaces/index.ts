@@ -15,3 +15,10 @@ export interface PostProps {
   title: string;
   content: string
 }
+
+export interface UserProps {
+  name: string;
+  email: string;
+  address: string
+  onChange: (field: 'name' | 'email' | 'address', value: string) => void
+}
